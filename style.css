@@ -1,0 +1,177 @@
+*{
+    margin:0px;
+}
+button {
+    cursor: pointer;
+}
+.nav{
+    width:100%;
+    color:white;
+    position:fixed;
+    z-index: 2;
+    top:0;
+    display:flex;
+    justify-content: center;
+    background-color:transparent;
+}
+.navbar {
+    padding-top: 20px;
+    position:sticky;
+    padding-bottom: 16px;
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin-left: auto;
+    margin-right:auto;
+    gap:200px;
+    align-items: center;
+  }
+  #big
+  {
+    font-size: 24px;
+  }
+  .nav-right
+  {
+    display: flex;
+    gap:20px;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .nav-left{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:30px;
+  }
+  .nav-button
+  {
+    align-items:center;
+    border:2px solid;
+    border-color: white;
+    background-color:white;
+    border-radius:999px;
+    padding:10px 1.5rem 10px 1.5rem;
+    font-size:16px;
+    opacity:1;
+  }
+  .nav-button:hover{
+    opacity: 0.7;;
+  }
+  .nav-button-prev
+  {
+    border:none;
+    border-color: transparent;
+    background-color:transparent;
+    border-radius:999px;
+    padding:10px 1.5rem 10px 1.5rem;
+    font-size:16px;
+    color:white;
+  }
+  .nav-button-prev:hover
+  {
+    align-items:center;
+    opacity:0.8;
+    border:2px solid;
+    border-color: rgb(0, 0, 0);
+    background-color:rgb(0, 0, 0);
+  }
+  .content
+  {
+    width:90%;
+    align-items: center;
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    background-color: beige;
+  }
+  .face-section{
+    height:30vh;
+  width:100%;
+    bottom:0;
+    right:0;
+    left:0;
+    position:absolute;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+  }
+  .content-left
+  {
+    font-size:24px;
+    font-weight:400;
+  }
+  .content-button
+  {
+    font-size:20px;
+  }
+  .landing
+  {
+    height:100vh;
+    overflow: hidden;
+  }
+  .event-section
+  {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .event{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+    width:100%;
+    align-items:center;
+  }
+  .event-title
+  {
+    font-size: 44px;
+    font-weight: 00;
+  }
+  .sub-content
+  {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap:40px;
+  }
+  .sub-first
+  {
+    display:flex;
+    align-items: center;
+    padding:40px;
+    justify-content:space-between;
+    background-color: azure;
+    width:87%;
+  }
+  .sub-title
+  {
+    font-size:30px;
+    font-weight:600;
+  }
+  .sub-tisc
+  {
+    font-size:20px;
+    text-align: center;
+  }
+  .sub-explore
+  {
+    display: flex;
+    font-size:16px;
+  }
+  .sub-img
+  {
+    border: 5px solid #555;
+  }
+  .nav-leftitem
+  {
+    font-size:18px;
+    cursor: pointer;
+  }
+  .landing
+  {
+    background-image:url("./assets/robert-shunev-mS1nlYbq1kA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
